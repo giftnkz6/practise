@@ -2,10 +2,14 @@ html{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: aqua;
 }
 header{
     display: inline-flex;
@@ -55,7 +59,7 @@ a{
     margin-top: 20px;
 }
 #home:not(p) {
-    color: pink;
+    /* color: pink; */
 }
 input:required{
     background-color: lightcyan;
@@ -63,9 +67,33 @@ input:required{
 }
 h2::after{
     content: "|";
-    background-color: blue;
+    /* background-color: blue; */
 }
 h2::before{
     content: "|";
-    background-color: blue;
+    /* background-color: blue; */
+}
+h2{
+    color: orange;
+}
+#about{
+    margin-top: 20px;
+}
+.skills{
+    width: 40%;
+    /* background-color: white; */
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 20em;
+    min-width: 590px;
+    left: 50%;
+    right: 50%;
+}
+.container{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    border: ;
+}
+p{
+    text-align: center;
 }
